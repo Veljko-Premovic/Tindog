@@ -1,0 +1,209 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+#title{
+  background-color:#ff4c68;
+}
+
+
+}
+
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+h3{
+
+  font-family: 'Montserrat', sans-serif;
+font-weight:900;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+
+}
+
+.container-fluid{
+  padding: 3% 10% 15%;
+}
+
+/* Navbar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-item{
+padding-left: 18px;
+padding-right: 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Downloads buttons */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+
+/* Title */
+
+.title-img{
+  width:50%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+
+}
+
+.title{
+
+
+}
+
+
+/* fEATURES SECTION */
+
+#features p{
+  color: #8f8f8f;
+
+}
+
+#features{
+padding-top: 5%;
+padding-bottom: 5%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+width: 80%;
+margin: auto;
+
+
+}
+
+.fa-bullseye{
+  font-size: 300%;
+}
+
+.fa-check-circle{
+  font-size: 300%;
+}
+
+.fa-heart{
+  font-size: 300%;
+}
+
+.icon{
+  color:#ef8172;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* testemonial section */
+
+#testimonials{
+
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+
+
+}
+
+#testimonials h2{
+  text-align: center;
+  margin: 0 15%;
+  line-height: 1.5;
+
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding:5% 15%;
+}
+
+#press{
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ef8172
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+
+
+/* cards */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.prising-cars{
+  padding: 5% 2%;
+}
+
+@media (max-width:1000px){
+  .title-img {
+    position:static;
+    transform: rotate(-0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-header{
+  width: 40%;
+  margin:auto;
+  padding-top: 50px;
+  color:#fff;
+  font-size: 2rem;
+}
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+#footer a{
+  padding: 0px 10px;
+
+}
+
+#footer p{
+  margin-top: 10px;
+}
